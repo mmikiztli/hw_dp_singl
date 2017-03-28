@@ -11,9 +11,9 @@
     - racecar  
     - space ship  
 - the machine what makes the toys doesn't really care what toy it makes but it expects that the toy object it is creating has three methods what it will use to make the toy:
-- prepare()
-- make()
-- package()
+    - prepare()
+    - make()
+    - package()
 - the methods in the Toy classes should print (log) what it is doing and the type of the toy (for ex. the boat's prepare should write 'preparing boat')  
 - the ToyFactory class should have a make_toy(toy_name) method where the toy should be instantiated based on the toy_name.The prepare / make / package() methods of the created toy object should be called, in this order  
 - Your task is to create everything what is needed to fulfill the requirements. Also make tests for it so we can see that it's working. You may also use your Logger class for logging purposes. :)  
